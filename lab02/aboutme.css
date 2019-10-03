@@ -1,0 +1,66 @@
+body{
+    font-family: Helvetica, verdana, sans-serif;
+    color: #939396;
+    background-color: #1D2475;
+    background-image: url("https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/2/cse326bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 40pt;
+    color: #F7931E;
+    text-shadow: 3px -3px green;
+}
+h2{
+    color: #F7931E;
+}
+dl{
+    font-size: 70%;
+}
+dt{
+    font-weight: bold;
+    color: #FFF86B;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 150%;
+}
+a{
+    color: #FF4F4F;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border-width: medium thick;
+    border-style: ridge;
+    border-color: #F7931E;
+}
+img.validation{
+    border:0;
+}
+b{
+    color: #FFF86B;
+}
+q{
+    color:#D1DFEB;
+}
+ul{
+    text-align: left;
+    list-style-type: square;
+}
+ol{
+    text-align: left;
+}
+q{
+    text-align: left;
+}
+table{
+    border: dotted;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: dotted;
+}
