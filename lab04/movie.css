@@ -1,0 +1,114 @@
+
+body {
+    background-image : url("background.png");
+    vertical-align: middle;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size : 8pt;
+    text-align : center;
+    margin : 0;
+}
+.banner{
+    background-image : url("bannerbg.png");
+}
+.height50{
+    height : 50px;
+}
+h1{
+    font-size : 24pt;
+    font-weight : bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+.overall{
+    width: 800px;
+    margin : 0 auto;
+    border : 4px solid gray;
+    border-radius : 20px;
+    overflow: hidden;
+}
+.overall:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.overall_left{
+    width : 550px;
+}
+.overall_right{
+    width : 250px;
+    background-color :#A2B964;
+    float : right;
+    text-align : left;
+}
+.overall_bottom {
+    margin : 0;
+    background-color : #A2B964;
+    padding : 5px;
+}
+.rottenbig{
+    font-size : 48pt;
+    color : red;
+    font-weight : bold;
+    text-align: left;
+    background-image : url("rbg.png");
+    height : 83px;
+}
+.rottenbigimg{
+    vertical-align: bottom;
+    height : 83px;
+}
+.column{
+    float: left;
+    width: 47%;
+    margin: 0 1%; 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column_element{
+    text-align : left;
+    overflow: hidden;
+    display:inline;
+    margin : 0 20pt;
+}
+.content_img{
+    float : left;
+    margin-right : 5px;
+    overflow: hidden;
+}
+.column_quote{
+    font-size : 8pt;
+    font-weight : bold;
+    background-color : #E8DC9B;
+    border : 2px solid gray;
+    border-radius : 10px;
+    padding : 10px;
+    overflow: hidden;
+}
+.italic {
+    font-style : italic;
+}
+dl{
+    padding-left : 10pt;
+    font-size : 8pt;
+    font-family : Arial, sans-serif;
+}
+dt{
+    margin-top : 10pt;
+    font-weight : bold;
+}
+.nobullet{
+    list-style-type : none;
+    padding-left : 0;
+}
+.valid{
+    position : fixed;
+    bottom : 0;
+    right : 0;
+    opacity : 0.5;
+}
+.pos2{
+    right : 85px;
+}
